@@ -3,7 +3,7 @@
  * Copyright (c) 2010 MindstormsKid <mindstormskd@gmail.com>
  * Licensed under the MIT license <http://www.opensource.org/licenses/mit-license.php>
  *
- * Portable function that returns a psuedo-array with functions to add to and navigate through it.
+ * Portable function that returns a pseudo-array with functions to add to and navigate through it.
  * Usage, assuming the value getter and setter is this.value:
  *     var h = History(max_history_length = 400);
  *     h.add(this.value); // add a value, usually when the user presses enter

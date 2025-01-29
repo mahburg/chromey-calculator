@@ -8,10 +8,10 @@
 	var optionSel = "input";
 	var $options = $(optionSel);
 	function loadOptionValues() {		
-		//console.debug("otpoins", $options.length, $this.attr("type"));
+		//console.debug("options", $options.length, $this.attr("type"));
 		$(optionSel).each(function() {
 			var $this = $(this);
-			//console.debug("otpoins", $options.length, this.id, $this.attr("type"));
+			//console.debug("options", $options.length, this.id, $this.attr("type"));
 			var val = JSON.parse(localStorage["opt_"+this.id] || "[]")[0];
 			if (this.id == "height") {
 				this.value = val || "";
